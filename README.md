@@ -1,4 +1,4 @@
-# <Project Name>
+# Warranty Vault
 
 > Replace every angle-bracket placeholder below. The hygiene check in CI will
 > fail until you do.
@@ -7,17 +7,20 @@
 
 | Roll No. | Name | GitHub username |
 |---|---|---|
-| <roll> | <name> | <username> |
+| 24ESKCS062 | Aryan Batra | Aryan04Batra |
 
 ## About
 
-<Two or three sentences on what this application does.>
+Warranty Vault is a web-based warranty management 
+application designed to help users keep track of 
+their products, warranty information, service 
+history, documents, and warranty expiry dates.
 
 ## Tech stack
 
-- Frontend: <e.g. React>
-- Backend: <e.g. Node.js / Express>
-- Database: <e.g. PostgreSQL>
+- Frontend: html, css, js
+- Backend: 
+- Database: 
 
 ## Running locally
 
