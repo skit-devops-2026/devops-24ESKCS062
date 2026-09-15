@@ -11,14 +11,14 @@
 .PHONY: install test build run docker-build docker-up
 
 install:
-	@echo "TODO: install dependencies" && exit 1
+	@echo "No external dependencies required for this static project"
 
 test:
-	@echo "TODO: run the test suite" && exit 1
+	python -m unittest discover -s tests -p "test_*.py" -v
 
 build:
-	@echo "TODO: build the project" && exit 1
-
+	@echo "Static project build completed"
+	
 run:
 	@echo "TODO: start the app locally" && exit 1
 
