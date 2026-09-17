@@ -70,6 +70,14 @@ class TestWarrantyVault(unittest.TestCase):
                     text = file_path.read_text(encoding="utf-8").lower()
                     self.assertIn("</html>", text)
 
+    def test_html_pages_have_closing_body_tag(self):
+        for path in REQUIRED_FILES:
+            if path.endswith(".html"):
+                with self.subTest(path=path):
+                    file_path = ROOT / path
+                    text = file_path.read_text(encoding="utf-8").lower()
+                    self.assertIn("</body>", text)
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
