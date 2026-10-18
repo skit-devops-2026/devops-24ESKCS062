@@ -37,3 +37,11 @@ make run
 
 `GET /health` returns the running commit SHA. See `Makefile` and the milestone
 sheet for why this is required.
+
+
+## Live Deployment
+
+**Platform:** Railway
+
+**Live URL:** https://fsd-project-production-e6c9.up.railway.app/
+
