@@ -1,0 +1,13 @@
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: fsd-project-service
+spec:
+  type: ClusterIP
+  selector:
+    app: fsd-project
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
