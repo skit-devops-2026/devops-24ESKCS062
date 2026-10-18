@@ -1,0 +1,13 @@
+.git
+.github
+.venv
+venv
+__pycache__
+*.pyc
+.env
+node_modules
+dist
+build
+docs
+k8s
+monitoring

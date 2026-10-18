@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: fsd-project:1.0
+    container_name: fsd-project
+    ports:
+      - "8080:80"
+    restart: unless-stopped
