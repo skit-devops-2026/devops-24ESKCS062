@@ -31,7 +31,7 @@ make run
 
 ## Live URL
 
-<Add once M5 is done. Until then, leave as is.>
+<https://fsd-project-production-e6c9.up.railway.app/>
 
 ## Health endpoint
 
